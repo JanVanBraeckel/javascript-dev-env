@@ -1,2 +1,2 @@
-# pluralsight-js-dev-env
-JavaScript Development Environment
+# node-dev-env
+JavaScript/Node.js Development Environment
