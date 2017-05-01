@@ -12,8 +12,7 @@
     "typings": "typings install",
     "startMessage": "ts-node buildScripts/startMessage.ts"
   },
-  "author": "Cory House",
-  "license": "MIT",
+  "author": "Jan Van Braeckel",
   "dependencies": {
     "whatwg-fetch": "1.0.0"
   },
@@ -33,18 +32,21 @@
     "localtunnel": "1.8.1",
     "mocha": "3.1.2",
     "nock": "8.1.0",
+    "node-sass": "^4.5.2",
     "npm-run-all": "3.1.1",
     "nsp": "2.6.2",
     "numeral": "1.5.3",
     "open": "0.0.5",
     "rimraf": "2.5.4",
+    "sass-loader": "^6.0.3",
     "style-loader": "0.13.1",
+    "ts-loader": "^2.0.3",
     "ts-node": "^3.0.2",
     "typescript": "^2.3.2",
     "typings": "^2.1.1",
-    "webpack": "1.13.2",
-    "webpack-dev-middleware": "1.8.4",
-    "webpack-hot-middleware": "2.13.0",
+    "webpack": "2.4.1",
+    "webpack-dev-middleware": "1.10.2",
+    "webpack-hot-middleware": "2.18.0",
     "webpack-md5-hash": "0.0.5"
   }
 }
