@@ -1,2 +1,2 @@
-# node-dev-env
-JavaScript/Node.js Development Environment
+# JavaScript-dev-env
+JavaScript Development Environment example
