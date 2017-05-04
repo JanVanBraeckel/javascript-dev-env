@@ -1,4 +1,5 @@
 import * as path from 'path';
+import * as LoaderOptionsPlugin from 'webpack/lib/LoaderOptionsPlugin';
 
 export default {
   devtool: 'inline-source-map',
@@ -11,9 +12,18 @@ export default {
     publicPath: '/',
     filename: 'bundle.js'
   },
-  plugins: [],
+  plugins: [
+  ],
   module: {
     rules: [
+      {
+        test: /\.ts$/,
+        enforce: 'pre',
+        loader: 'tslint-loader',
+        options: {
+          configFile: './tslint.json'
+        }
+      },
       {
         test: /\.ts$/,
         exclude: /node_modules/,
