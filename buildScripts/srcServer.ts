@@ -19,6 +19,7 @@ app.get('/', (req, res) =>
 
 app.listen(port, err => {
   if (err) {
+    // tslint:disable-next-line:no-console
     console.log(err);
   } else {
     open(`http://localhost:${port}`);
