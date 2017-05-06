@@ -4,7 +4,7 @@ import * as LoaderOptionsPlugin from 'webpack/lib/LoaderOptionsPlugin';
 export default {
   devtool: 'inline-source-map',
   entry: [
-    path.resolve(__dirname, 'src/index.ts')
+    path.resolve(__dirname, 'src/index.ts'),
   ],
   target: 'web',
   output: {
@@ -41,10 +41,10 @@ export default {
           },
           {
             loader: 'sass-loader',
-          }
+          },
         ],
         test: /\.scss$/,
       },
-    ]
+    ],
   },
 };
